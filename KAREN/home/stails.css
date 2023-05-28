@@ -1,0 +1,26 @@
+*{
+    text-align:center ; 
+    background-color: #B5B6B3;
+}
+.nombre{
+    font-size:70px ;color: darkmagenta;
+}
+.titulo{
+    font-family: fantasy;
+     
+    font-size:27px ;
+}
+.presentacion{
+    font-size:24px ;
+    font-family: monospace;
+    margin-top: 100px;
+}
+.paises{
+    font-size: 28px;
+}
+li{
+    list-style: none;
+}
+.imagen{
+    margin: 30px;
+}
