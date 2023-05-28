@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.todo{
+width: 600px;
+}
+.title img{
+    width: 249px;
+}
