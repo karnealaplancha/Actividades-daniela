@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.header, .main{
+    display: flex;
+    justify-content: center;
+}
+.lista-movimientos{
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid #0000;
+}
+.movimiento{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 5px;
+    padding: 20px;
+    border-bottom: 2px solid #818080;
+}
+.movimiento:hover{
+    background-color: #b3b3b3;
+}
+.gasto{
+    color: #cb0e0e;
+}
+.ingreso{
+    color: #0abc34;
+}

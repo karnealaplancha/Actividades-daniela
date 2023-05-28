@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.title-main{
+    text-align: center;
+    font-size: 48px;
+    color:#00ffff ;
+    margin: 10px;
+}
+.colores-main{
+    display: flex;
+    justify-content: space-around;
+}
+.color{
+    background-color: red;
+    margin: 8px;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.info-color{
+    display: none;
+}
+.color:hover > .info-color{
+display: flex;
+}
+.frio1{
+    background-color: #9988dd;
+}
+.frio2{
+    background-color: #2527ff;
+}
+.frio3{
+    background-color: #1099bb;
+}
+.frio4{
+    background-color: #15ab92;
+}
+.calido1{
+    background-color: #8c0000;
+}
+.calido2{
+    background-color: #bd2000;
+}
+.calido3{
+    background-color: #ffbe0f;
+}
+.calido4{
+    background-color: #fffc0f;
+}
